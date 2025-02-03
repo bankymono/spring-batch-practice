@@ -1,9 +1,10 @@
 package com.bankymono.spring_batch_practice.entity;
 
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
 @Table(name = "CUSTOMERS_INFO")
 public class Customer {
